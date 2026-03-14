@@ -1056,17 +1056,20 @@ body {
 }
 
 .seo-links {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: block;
 }
 
 .seo-links li {
-  margin: 6px 0;
+    display: block;
+    margin: 6px 0;
 }
 
 .seo-links a {
-  text-decoration: none;
-  color: #ddd;
+    display: block;
+    text-decoration: none;
 }
 
 .seo-links a:hover {
