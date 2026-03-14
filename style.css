@@ -1054,3 +1054,21 @@ body {
         width: 100%;
     }
 }
+
+.seo-links {
+  list-style: none;
+  padding: 0;
+}
+
+.seo-links li {
+  margin: 6px 0;
+}
+
+.seo-links a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.seo-links a:hover {
+  color: #fff;
+}
