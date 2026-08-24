@@ -3,15 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Karaoke Software for karaoke business.">
-    <meta name="keywords" content="karaoke software, karaoke system, karaoke player">
-    <meta name="author" content="KaraokeIndo">
-    <title>KaraokePro - Professional Karaoke Software Solution</title>
+    <title>Karaokeindo.com - Professional Karaoke Software Solution</title>
+    <meta name="description" content="Karaokeindo.com provides professional karaoke software with integrated Player, Cashier & Admin Management for cafes, pubs, and karaoke clubs in Indonesia.">
+    <meta name="keywords" content="karaoke software, karaoke system, karaoke player, karaoke management, POS karaoke, karaoke Indonesia, software karaoke">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://karaokeindo.com/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Karaokeindo.com - Professional Karaoke Software">
+    <meta property="og:description" content="Complete karaoke software solution with Player, Cashier & Admin Management for businesses in Indonesia.">
+    <meta property="og:image" content="https://karaokeindo.com/images/Software%20Karaoke.jpg">
+    <meta property="og:url" content="https://karaokeindo.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Karaokeindo.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Karaokeindo.com - Professional Karaoke Software">
+    <meta name="twitter:description" content="Complete karaoke software solution for karaoke businesses in Indonesia.">
+    <meta name="twitter:image" content="https://karaokeindo.com/images/Software%20Karaoke.jpg">
+
+    <!-- Preconnect for CDN -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Karaokeindo.com",
+        "description": "Professional karaoke software solutions for businesses",
+        "url": "https://karaokeindo.com",
+        "email": "karaokeindo99@gmail.com",
+        "telephone": ["+6281250000150", "+6285225830066"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bekasi",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+        },
+        "areaServed": "Indonesia"
+    }
+    </script>
 </head>
 <body>
+    <div class="whatsapp-container">
+        	<span class="whatsapp-text">Please contact us</span>
+    		<a href="https://wa.me/+6281398952550?text=Hallo,%20Saya%20mau%20tanya-tanya%20mengenai%20software%20karaokenya." class="whatsapp-float" id="whatsappButton" target="_blank" rel="noopener noreferrer">
+        		<i class="fab fa-whatsapp"></i>
+    		</a>
+	</div>
     <!-- Navigation -->
+    <header>
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
@@ -29,14 +80,18 @@
             <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
                 <i class="fas fa-moon"></i>
             </button>
-            <div class="hamburger">
+            <div class="hamburger" role="button" aria-label="Toggle navigation" aria-expanded="false" tabindex="0">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
     </nav>
+    </header>
 
+    <a href="#home" class="skip-link">Skip to main content</a>
+
+    <main>
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
@@ -128,27 +183,27 @@
             <h2 class="section-title">Software Gallery</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="images/Software Karaoke2.jpg" alt="Player Interface">
+                    <img src="images/Software Karaoke2.jpg" alt="KaraokePro cashier dashboard interface">
                     <div class="gallery-overlay">
-                        <h4>Player Interface</h4>
+                        <h3>Player Interface</h3>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/Software Karaoke1.jpg" alt="Player Interface">
+                    <img src="images/Software Karaoke1.jpg" alt="KaraokePro player interface showing song selection">
                     <div class="gallery-overlay">
-                        <h4>Player Interface</h4>
+                        <h3>Player Interface</h3>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/KasirKaraoke.jpg" alt="Cashier Dashboard">
+                    <img src="images/KasirKaraoke.jpg" alt="KaraokePro cashier system for billing">
                     <div class=" gallery-overlay">
-                        <h4>Cashier Dashboard</h4>
+                        <h3>Cashier Dashboard</h3>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/AdminKaraoke.jpg" alt="Admin Panel">
+                    <img src="images/AdminKaraoke.jpg" alt="KaraokePro admin management panel">
                     <div class="gallery-overlay">
-                        <h4>Admin Panel</h4>
+                        <h3>Admin Panel</h3>
                     </div>
                 </div>
                 <!-- <div class="gallery-item">
@@ -171,19 +226,19 @@
                 <!-- Client 1 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/SKTV_solo.jpg" alt="SKTV Karaoke Solo">
+                        <img src="Clients/SKTV_solo.jpg" alt="SKTV Karaoke Solo">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.app.goo.gl/Pt4Yz8JXYaVW2ELu6" target="_blank" title="View on Google Maps">
+                                <a href="https://maps.app.goo.gl/Pt4Yz8JXYaVW2ELu6" target="_blank" rel="noopener noreferrer" title="View on Google Maps">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </a>
-                                <a href="https://www.instagram.com/sktv.karaoke/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/sktv.karaoke/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://www.facebook.com/sktv.purwosari.solo" target="_blank" title="Facebook">
+                                <a href="https://www.facebook.com/sktv.purwosari.solo" target="_blank" rel="noopener noreferrer" title="Facebook">
                                     <i class="fab fa-facebook"></i>
                                 </a>
-                                <a href="https://share.google/3PrW9IiRfuXzG1pFW" target="_blank" title="Website">
+                                <a href="https://share.google/3PrW9IiRfuXzG1pFW" target="_blank" rel="noopener noreferrer" title="Website">
                                     <i class="fas fa-globe"></i>
                                 </a>
                             </div>
@@ -207,20 +262,17 @@
                 <!-- Client 2 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/Kingdom.jpg" alt="Kingdom Karaoke">
+                        <img src="Clients/Kingdom.jpg" alt="Kingdom Karaoke">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.app.goo.gl/JB4St58hhqmfkTh68" target="_blank" title="View on Google Maps">
+                                <a href="https://maps.app.goo.gl/JB4St58hhqmfkTh68" target="_blank" rel="noopener noreferrer" title="View on Google Maps">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </a>
-                                <a href="https://www.instagram.com/kingdomkaraoke/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/kingdomkaraoke/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://share.google/ZJ3UefNq8ngmqKGeq" target="_blank" title="Facebook">
+                                <a href="https://share.google/ZJ3UefNq8ngmqKGeq" target="_blank" rel="noopener noreferrer" title="Facebook">
                                     <i class="fab fa-facebook"></i>
-                                </a>
-                                <a href="https://share.google/ZJ3UefNq8ngmqKGeq" target="_blank" title="Website">
-                                    <i class="fas fa-globe"></i>
                                 </a>
                             </div>
                         </div>
@@ -243,20 +295,17 @@
                 <!-- Client 3 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/bella.jpg" alt="Bella Karaoke">
+                        <img src="Clients/bella.jpg" alt="Bella Karaoke">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.google.com/?q=VoiceBox+Club+Tokyo" target="_blank" title="View on Google Maps">
+                                <a href="https://maps.google.com/?q=Bella+Karaoke+Boyolali" target="_blank" rel="noopener noreferrer" title="View on Google Maps">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </a>
-                                <a href="https://www.instagram.com/bellafamilykaraoke/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/bellafamilykaraoke/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://share.google/d4yid9RmnCde6lwqP" target="_blank" title="Facebook">
+                                <a href="https://share.google/d4yid9RmnCde6lwqP" target="_blank" rel="noopener noreferrer" title="Facebook">
                                     <i class="fab fa-facebook"></i>
-                                </a>
-                                <a href="https://share.google/d4yid9RmnCde6lwqP" target="_blank" title="Website">
-                                    <i class="fas fa-globe"></i>
                                 </a>
                             </div>
                         </div>
@@ -279,27 +328,24 @@
                 <!-- Client 4 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/SS.jpg" alt="SS Family Karaoke">
+                        <img src="Clients/SS.jpg" alt="SS Family Karaoke">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.app.goo.gl/U84m5ZDRnQJ9tamm8" target="_blank" title="View on Google Maps">
+                                <a href="https://maps.app.goo.gl/U84m5ZDRnQJ9tamm8" target="_blank" rel="noopener noreferrer" title="View on Google Maps">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </a>
-                                <a href="https://www.instagram.com/explore/locations/2045974435620761/ss-family-karaoke-bukittinggi/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/explore/locations/2045974435620761/ss-family-karaoke-bukittinggi/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://www.tiktok.com/discover/ss-family-karaoke-bukittinggi" target="_blank" title="tiktok">
+                                <a href="https://www.tiktok.com/discover/ss-family-karaoke-bukittinggi" target="_blank" rel="noopener noreferrer" title="TikTok">
                                     <i class="fab fa-tiktok"></i>
-                                </a>
-                                <a href="https://share.google/7pJGUZ0QpkW3JXHjw" target="_blank" title="Website">
-                                    <i class="fas fa-globe"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="client-info">
                         <h3>SS Family Karaoke</h3>
-                        <p class="client-location"><i class="fas fa-map-pin"></i> bukittinggi</p>
+                        <p class="client-location"><i class="fas fa-map-pin"></i> Bukittinggi, Sumatera Barat</p>
                         <p class="client-type">Upscale Karaoke Lounge</p>
                         <div class="client-rating">
                             <i class="fas fa-star"></i>
@@ -315,27 +361,21 @@
                 <!-- Client 5 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/sgh.jpg" alt="SGH Karaoke">
+                        <img src="Clients/sgh.jpg" alt="SGH Karaoke">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.app.goo.gl/JB4St58hhqmfkTh68" target="_blank" title="View on Google Maps">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </a>
-                                <a href="https://www.instagram.com/sgh.karaoke_/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/sgh.karaoke_/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://www.facebook.com/sgh.familykaraoke/" target="_blank" title="Facebook">
+                                <a href="https://www.facebook.com/sgh.familykaraoke/" target="_blank" rel="noopener noreferrer" title="Facebook">
                                     <i class="fab fa-facebook"></i>
-                                </a>
-                                <a href="https://share.google/f9ieELpG9HrLdpiuo" target="_blank" title="Website">
-                                    <i class="fas fa-globe"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="client-info">
-                        <h3>Kingdom Karaoke</h3>
-                        <p class="client-location"><i class="fas fa-map-pin"></i> Boyolali, jawa tengah</p>
+                        <h3>SGH Karaoke</h3>
+                        <p class="client-location"><i class="fas fa-map-pin"></i> Boyolali, Jawa Tengah</p>
                         <p class="client-type">Family Karaoke</p>
                         <div class="client-rating">
                             <i class="fas fa-star"></i>
@@ -351,19 +391,16 @@
                 <!-- Client 6 -->
                 <div class="client-card">
                     <div class="client-image">
-                        <img src="clients/Alexa.jpg" alt="Alexa Karaoke">
+                        <img src="Clients/Alexa.jpg" alt="Alexa Karaoke">
                         <div class="client-overlay">
                             <div class="client-links">
-                                <a href="https://maps.app.goo.gl/JB4St58hhqmfkTh68" target="_blank" title="View on Google Maps">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </a>
-                                <a href="https://www.instagram.com/alexa_magelang/" target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/alexa_magelang/" target="_blank" rel="noopener noreferrer" title="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://www.tiktok.com/@alexakarokemagelang" target="_blank" title="TikTok">
+                                <a href="https://www.tiktok.com/@alexakarokemagelang" target="_blank" rel="noopener noreferrer" title="TikTok">
                                     <i class="fab fa-tiktok"></i>
                                 </a>
-                                <a href="https://www.facebook.com/Alexakaraoke.org" target="_blank" title="Facebook">
+                                <a href="https://www.facebook.com/Alexakaraoke.org" target="_blank" rel="noopener noreferrer" title="Facebook">
                                     <i class="fab fa-facebook"></i>
                                 </a>
                             </div>
@@ -371,7 +408,7 @@
                     </div>
                     <div class="client-info">
                         <h3>Alexa Karaoke</h3>
-                        <p class="client-location"><i class="fas fa-map-pin"></i> Magelang, jawa tengah</p>
+                        <p class="client-location"><i class="fas fa-map-pin"></i> Magelang, Jawa Tengah</p>
                         <p class="client-type">Karaoke & Caffe Bar</p>
                         <div class="client-rating">
                             <i class="fas fa-star"></i>
@@ -403,15 +440,15 @@
                     <p>Our mission is to provide affordable, reliable, and feature-rich karaoke systems that help businesses thrive in the entertainment industry.</p>
                     <div class="stats">
                         <div class="stat-item">
-                            <h3>100+</h3>
+                            <p class="stat-number">100+</p>
                             <p>Karaoke Clubs</p>
                         </div>
                         <div class="stat-item">
-                            <h3>50+</h3>
+                            <p class="stat-number">50+</p>
                             <p>Cities</p>
                         </div>
                         <div class="stat-item">
-                            <h3>99.9%</h3>
+                            <p class="stat-number">99.9%</p>
                             <p>Uptime</p>
                         </div>
                     </div>
@@ -429,37 +466,45 @@
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email</h4>
+                            <h3>Email</h3>
                             <p>karaokeindo99@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>Phone/WA</h4>
+                            <h3>Phone/WA</h3>
                             <p>081250000150, 085225830066</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Address</h4>
+                            <h3>Address</h3>
                             <p>Jatiasih, Bekasi, Indonesia</p>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm" name="contact" method="POST" action="https://formspree.io/f/xeergzgd">
+                <form class="contact-form" id="contactForm" name="contact" method="POST" action="https://api.web3forms.com/submit">
+                    <input type="hidden" name="access_key" value="81f28fd6-acf5-470e-86b1-4432d46fd203">
+                    <input type="hidden" name="subject" value="New Message from Karaokeindo.com">
+                    <input type="hidden" name="from_name" value="Karaokeindo Website">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                     <div class="form-group">
-                        <input type="text" name="user_name" placeholder="Your Name" required>
+                        <label for="user_name" class="sr-only">Your Name</label>
+                        <input type="text" id="user_name" name="user_name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="user_email" placeholder="Your Email" required>
+                        <label for="user_email" class="sr-only">Your Email</label>
+                        <input type="email" id="user_email" name="user_email" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="business_name" placeholder="Business Name">
+                        <label for="business_name" class="sr-only">Business Name</label>
+                        <input type="text" id="business_name" name="business_name" placeholder="Business Name">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <label for="message" class="sr-only">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary submit-btn">
                         <span>Send Message</span>
@@ -469,21 +514,12 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <h3>Karaoke Software</h3>
-
-                   <ul class="seo-links">
-                      <li><a href="karaoke-software.html">Professional Karaoke Software</a></li>
-                      <li><a href="karaoke-player.html">Karaoke Player Software</a></li>
-                      <li><a href="karaoke-system-for-cafe.html">Karaoke System for Cafe</a></li>
-                      <li><a href="karaoke-software-windows.html">Karaoke Software for Windows</a></li>
-                      <li><a href="karaoke-business.html">Start Karaoke Business</a></li>
-                   </ul>
-                    
                 <div class="footer-logo">
                     <i class="fas fa-microphone-alt"></i>
                     <span>Karaokeindo.com</span>
@@ -494,21 +530,18 @@
                     <a href="#contact">Contact</a>
                 </div>
                 <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <!-- Replace # with actual social media URLs -->
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Karaokeindo.com All rights reserved.</p>
+                <p>&copy; 2025 Karaokeindo.com All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
-
-
