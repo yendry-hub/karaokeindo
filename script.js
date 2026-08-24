@@ -157,9 +157,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             })
             .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
                 submitBtn.classList.remove('loading');
                 
-                if (response.ok) {
+                if (data.success) {
                     // Success - Show green button
                     if (btnText) {
                         btnText.textContent = '✓ Sent!';
@@ -186,23 +189,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         submitBtn.style.background = '';
                     }, 3000);
                 } else {
-                    // Error from Formspree
+                    // Error from Web3Forms
                     if (btnText) {
                         btnText.textContent = 'Send Message';
                     }
                     if (btnIcon) {
                         btnIcon.className = 'fas fa-paper-plane';
                     }
-                    
-                    response.json().then(function(data) {
-                        if (data.errors) {
-                            alert('Error: ' + data.errors.map(function(e) { return e.message; }).join(', '));
-                        } else {
-                            alert('Oops! There was a problem submitting your form. Please try again.');
-                        }
-                    }).catch(function() {
-                        alert('Oops! There was a problem submitting your form. Please try again.');
-                    });
+                    alert('Oops! There was a problem submitting your form. Please try again.');
                 }
             })
             .catch(function(error) {
